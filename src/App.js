@@ -5,7 +5,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom'
-import Voivodeships from "./components/voivodeships"
+import VoivodeshipsCities from "./components/voivodeships"
 
 
 
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return <Router>
       <Switch>
-        <Route exact path = "/" component = {Voivodeships}/>
+        <Route exact path = "/" component = {VoivodeshipsCities}/>
         <Redirect to = "/"/>
       </Switch>
     </Router>

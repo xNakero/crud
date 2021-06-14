@@ -1,0 +1,52 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    text-align: center;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+}
+
+button{
+    outline: none;
+    color:white;
+    padding: 12px 24px;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 4px;
+}
+
+li {
+    border-style: solid;
+    width: 80%;
+    text-align: center;
+    display: table;
+    margin: 1px auto 1px auto;
+}
+
+.button-add {
+    background-color: #4CAF50;
+}
+
+.button-delete {
+    background-color: #ce1b1b;
+}
+
+.button-edit {
+    background-color: #ddb01a;
+}
+
+.button-show-cities {
+    background-color: #25a0e7;
+}
